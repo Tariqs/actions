@@ -1,4 +1,6 @@
-target/
 .git/
+.github/
 .idea/
+target/*.jar.original
 *.md
+.env
