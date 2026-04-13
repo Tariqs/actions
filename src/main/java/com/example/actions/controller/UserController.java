@@ -27,7 +27,7 @@ public class UserController {
         return "index";
     }
 
-    //This is submit method.
+    // Handle form submission with validation
     @PostMapping("/submit")
     public String submit(@Valid @ModelAttribute("user") User user,
                          BindingResult result,
